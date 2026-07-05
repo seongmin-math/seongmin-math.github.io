@@ -1,0 +1,52 @@
+---
+layout: default
+title: Travels
+permalink: /travels/
+---
+
+<h1>Travels</h1>
+You might have seen me at the following conferences, seminars, or events.
+
+<h2>Outside Korea</h2>
+<ul style="list-style-type: none; padding-left: 0;">
+  {% for travel in site.data.travels.outside_korea %}
+    <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+      
+      <a href="{{ travel.link }}" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.1em; display: block; margin-bottom: 5px;">
+        <strong>{{ travel.event }}</strong>
+      </a>     
+      
+      <div style="display: flex; align-items: center; flex-wrap: wrap; color: #555; font-size: 1em; line-height: 1.5;">
+        
+        <span style="margin-right: 10px;">
+          {{ travel.date }} {{travel.place}}, {{travel.city}}, {{travel.country}}
+        </span>
+
+      </div>
+      <div style="height: 5px;"></div>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr>
+
+<h2>Inside Korea</h2>
+<ul style="list-style-type: none; padding-left: 0;">
+  {% for travel in site.data.travels.inside_korea %}
+    <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+      
+      <a href="{{ travel.link }}" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.1em; display: block; margin-bottom: 5px;">
+        <strong>{{ travel.event }}</strong>
+      </a>     
+      
+      <div style="display: flex; align-items: center; flex-wrap: wrap; color: #555; font-size: 1em; line-height: 1.5;">
+        
+        <span style="margin-right: 10px;">
+          {{ travel.date }} {{travel.place}}, {{travel.city}}
+        </span>
+
+      </div>
+      <div style="height: 5px;"></div>
+    </li>
+  {% endfor %}
+</ul>

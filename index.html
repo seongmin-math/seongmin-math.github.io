@@ -1,28 +1,75 @@
-<html>
+---
+layout: default
+---
 
-  <body>
-    <h1> Seongmin Kim (김성민, 金成珉) </h1>
-    
-    Hello! I am a PhD student at Seoul National University.
+<h1>Seongmin Kim (김성민, 金成珉)</h1>
+<p>Hello! I am a graduate student at Seoul National University.</p>
 
+<hr>
 
-    <h3> Education </h3>
-    <ul>
-      <li> <strong> Ph.D. student in Mathematics, Seoul National University </strong> <br>
-      Sep. 2022 — , Advisor: Seonhee Lim </li>
-      <li> <strong> B.S. in Mathematics, Korea University </strong> <br>
-      Mar. 2019 — Aug. 2022 </li>
-    </ul>
+<h2>Educations </h2>
+<ul style="list-style-type: none; padding-left: 0;">
+  <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+    <strong style="font-size: 1.1em">Ph.D. student in Mathematics, <a href="https://www.math.snu.ac.kr/" target="_blank" style="text-decoration: none; color: inherit;"> Seoul National University </a> </strong>
+    <br>
+    <div style="color: #555;">
+    2022.09. ~ , Advisor: <a href="https://sites.google.com/view/seonheelim?usp=sharing" target=_"blank" style="text-decoration: none; color: inherit;"> Seonhee Lim </a>
+    </div>
+  </li>
 
+  <li>
+    <strong style="font-size: 1.1em">B.S. in Mathematics, <a href="https://math.korea.ac.kr/" target="_blank" style="text-decoration: none; color: inherit;"> Korea University </a> </strong>
+    <br>
+    <div style="color: #555;">
+    2019.03. ~ 2022.08.
+    </div>
+  </li>
+</ul>
 
-    <h3> Paper </h3>
-    <ul>
-      <li> <strong> Khintchine's theorem for inhomogeneous simultaneous approximation with polynomial decay </strong> <br>
-      <em> preprint </em> arXiv:2604.22689 (2026) <a href="https://arxiv.org/abs/2604.22689" target="_blank">[arXiv]</a> </li>
-      <li> <strong> Inhomogeneous Khintchine—Groshev theorem without monotonicity </strong> <br>
-      <em> Bull. London Math. Soc. </em> 57: 2639-2657 (2025) <a href="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70114" target="_blank">[paper]</a> </li>
-    </ul>
-    
-  </body>
+<hr>
 
-</html>
+<h2>Papers and Preprints </h2>
+<ul style="list-style-type: none; padding-left: 0;">
+  {% for paper in site.data.papers %}
+    <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+      
+      <a href="{{ paper.link }}" target="_blank" style="text-decoration: none; color: #0066cc; font-size: 1.1em; display: block; margin-bottom: 5px;">
+        <strong>{{ paper.title }}</strong>
+      </a>
+      
+      <div style="display: flex; align-items: center; flex-wrap: wrap; color: #555; font-size: 1em; line-height: 1.5;">
+        
+        <span style="margin-right: 10px;">
+          <em>{{ paper.journal }}, </em> {{ paper.info }} ({{ paper.year }})
+        </span>
+        
+        {% if paper.abstract %}
+          <details style="display: inline-block;">
+            <summary style="cursor: pointer; color: #0088cc; font-size: 0.9em; user-select: none; list-style: none; display: block;">
+              <style>
+                summary::-webkit-details-marker { display: none; }
+                summary::marker { display: none; }
+              </style>
+              <span style="border: 1px solid #0088cc; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; 
+              white-space: nowrap; background-color: #ffffff; transition: all 0.2s ease;" 
+              onmouseover="this.style.backgroundColor='#0088cc'; this.style.color='#ffffff';"
+              onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#0088cc';">
+              Abstract</span>
+            </summary>
+            
+            <div style="left: 0; right: 0; background-color: #f9f9f9; padding: 5px; border-left: 5px solid #0088cc; margin-top: 5px; font-size: 0.95em; line-height: 1.6; color: #333; z-index: 100; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+              {{ paper.abstract | markdownify }}
+            </div>
+          </details>
+        {% endif %}
+        
+      </div>
+      <div style="height: 5px;"></div>
+    </li>
+  {% endfor %}
+</ul>
+
+<hr>
+
+<h2>Contact</h2>
+Email: seongmin.kim@snu.ac.kr

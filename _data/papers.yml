@@ -1,0 +1,16 @@
+- title: "Khintchine's theorem for inhomogeneous simultaneous approximation with polynomial decay"
+  journal: "preprint"
+  info: "arXiv:2604.22689"
+  year: 2026
+  link: "https://arxiv.org/abs/2604.22689"
+  abstract: >
+    Khintchine's theorem on the measure dichotomy for the set of $\psi$-approximable numbers has been generalized to inhomogeneous and higher-dimensional settings. Allen and Ramírez conjectured that the monotonicity condition can be removed in the inhomogeneous $nm=2$ cases. In this paper, we resolve the $(n,m)=(1,2)$ case for $\psi$ satisfying a polynomial decay condition $\psi(q)=O(q^{-\delta})$ for some $\delta>0.$
+
+
+- title: "Inhomogeneous Khintchine—Groshev theorem without monotonicity"
+  journal: "Bull. London Math. Soc."
+  info: "57: 2639-2657"
+  year: 2025
+  link: "https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70114"
+  abstract: >
+    The Khintchine--Groshev theorem in Diophantine approximation theory says that there is a dichotomy of the Lebesgue measure of sets of $\psi$-approximable numbers, given a monotonic function $\psi$. Allen and Ramírez removed the monotonicity condition from the inhomogeneous Khintchine--Groshev theorem for cases with $nm\geq3$ and conjectured that it also holds for $nm=2$. In this paper, we prove this conjecture in the case of $(n,m)=(2,1)$. We also prove it for the case of $(n,m)=(1,2)$ with a rational inhomogeneous parameter.

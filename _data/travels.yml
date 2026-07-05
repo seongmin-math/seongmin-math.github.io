@@ -1,0 +1,132 @@
+outside_korea:
+  - event: "Simons Semester: Continued Fractions, Fractals, Ergodic theory and Dynamics"
+    place: IMPAN 
+    city: Będlewo and Warsaw
+    country: Poland
+    date: "2026.04.26. ~ 2026.05.23."
+    link: "https://sites.google.com/impan.pl/simons-cfd2026"
+
+  - event: "Numeration and Substitution 2025"
+    place: University of Tsukuba
+    city: Tsukuba
+    country: Japan
+    date: "2025.09.08. ~ 2025.09.12."
+    link: "https://numeration2025.sciencesconf.org/?lang=en"
+
+  - event: Diophantine approximation and related fields
+    place: University of York
+    city: York
+    country: UK
+    date: "2025.06.09. ~ 2025.06.13."
+    link: "https://sites.google.com/york.ac.uk/york-25"
+
+  - event: Winter School on Homogeneous Dynamics
+    place: Fudan University
+    city: Shanghai
+    country: China
+    date: "2024.01.22. ~ 2024.01.26."
+    link: "https://scms.fudan.edu.cn/info/4588/6088.htm"
+
+
+inside_korea:
+  - event: "2026 KIAS-KWMS Summer School 1: Diophantine approximation and the Heisenberg group"
+    place: Seoul National University
+    city: Seoul
+    date: "2026.07.06. ~ 2026.07.08."
+    link: "https://www.kwms.or.kr/index.php?mp=ss_2026_1th_1"
+
+  - event: "DASOM Workshop 2026: Homogeneous dynamics & Number Theory"
+    place: Seoul National University
+    city: Seoul
+    date: "2026.06.25. ~ 2026.06.26."
+    link: "https://sites.google.com/view/seonheelim/past-activities/dasom-workshop?authuser=0"
+
+  - event: "International Conference for the 80th Anniversary of the Korean Mathematical Society"
+    place: ST Center
+    city: Seoul
+    date: "2026.06.22. ~ 2026.06.24."
+    link: "https://www.kms.or.kr/conference/meeting/?period=91"
+    
+  - event: "A Spring Day in Dynamics and Number Theory"
+    place: Dongguk University
+    city: Seoul
+    date: "2026.02.25."
+    link: "https://sites.google.com/view/springdday"
+
+  - event: "12th Dialogue with Future Scientists"
+    place: The Blue House
+    city: Seoul
+    date: "2026.02.05."
+    link: "https://news.naver.com/mnews/article/001/0015886959"
+
+  - event: "2026 Algebra Camp"
+    place: Elysian
+    city: Chuncheon
+    date: "2026.01.25. ~ 2026.01.29."
+    link: "https://sites.google.com/snu.ac.kr/algebra-camp2026/home"
+
+  - event: "Dynamical Group Theory VII"
+    place: Seoul National University
+    city: Seoul
+    date: "2025.11.26. ~ 2025.11.28."
+    link: "https://sites.google.com/view/dgtvii"
+
+  - event: "2025 KMS Annual Meeting"
+    place: ST Center
+    city: Seoul
+    date: "2025.10.22. ~ 2025.10.24."
+    link: "https://www.kms.or.kr/conference/meeting/index.html?period=90"
+
+  - event: "A Summer Dynamics Day"
+    place: Dongguk University
+    city: Seoul
+    date: "2025.08.21."
+    link: "https://sites.google.com/view/summerdday"
+
+  - event: "2025 KMS Spring Meeting"
+    place: KAIST
+    city: Daejeon
+    date: "2025.04.24. ~ 2025.04.26."
+    link: "https://www.kms.or.kr/conference/2025_spring/"
+
+  - event: "Workshop on Homogeneous and Complex Dynamics 2025"
+    place: Seoul National University
+    city: Seoul
+    date: "2025.03.26. ~ 2025.03.28."
+    link: "https://www.math.snu.ac.kr/~lim/Workshop25.html"
+
+  - event: "KIAS-LFANT Winter School on Number Theory"
+    place: KIAS
+    city: Seoul
+    date: "2025.01.07. ~ 2025.01.10."
+    link: "http://events.kias.re.kr/h/KIASLFANT2025/"
+
+  - event: "Dynamical Group Theory IV"
+    place: HCMC KIAS
+    city: Seoul
+    date: "2024.09.24. ~ 2024.09.27."
+    link: "https://sites.google.com/view/dgt4-kias"
+
+  - event: "Dynamical Group Theory III"
+    place: KIAS
+    city: Seoul
+    date: "2024.08.13. ~ 2024.08.16."
+    link: "https://sites.google.com/view/dgt3-kias"
+
+  - event: "2024 Algebraic Camp"
+    place: Bloomvista
+    city: Yangpyeong
+    date: "2024.02.03. ~ 2024.02.07."
+    link: "https://sites.google.com/snu.ac.kr/algebra-camp2024/"
+
+  - event: "Hyperbolic Geometry of Numbers 2023"
+    place: HCMC KIAS
+    city: Seoul
+    date: "2023.12.18. ~ 2023.12.20."
+    link: "https://sites.google.com/view/hygen2023"
+
+  - event: "2023 KMS Special Conference with 2022 Fields Medalists"
+    place: Seoul National University
+    city: Seoul
+    date: "2023.10.26. ~ 2023.10.28."
+    link: "https://www.kms.or.kr/conference/2023_fall"

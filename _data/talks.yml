@@ -1,0 +1,69 @@
+- event: "Simons Semester: Continued Fractions, Fractals, Ergodic theory and Dynamics"
+  place: "IMPAN"
+  country: "Poland"
+  date: "2026.05.07."
+  link: "https://sites.google.com/impan.pl/simons-cfd2026"
+  title: Removing monotonicity in Diophantine approximation
+  abstract: >
+    Khintchine’s theorem on metric Diophantine approximation establishes a dichotomy for the
+    measure of the set of $\psi$-approximable numbers. The problem of removing the monotonicity
+    condition on $\psi$ from multi-dimensional, inhomogeneous variants of Khintchine’s theorem has
+    been widely studied. In this talk, we will review previous results and discuss recent progress
+    on $(n, m) = (1, 2)$ case under certain decay conditions on $\psi$.
+
+- event: "Rookies Pitch"
+  place: "Seoul National University"
+  country: "Korea"
+  date: "2025.09.23."
+  video: "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Video&wr_id=151"
+  link: "https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Seminar&wr_id=42590"
+  title: "Khintchine’s theorem on Diophantine approximation"
+  abstract: >
+    Diophantine approximation is the study of approximating real numbers by rational numbers. 
+    For example, one can ask whether a real number x is ψ-approximable; that is, whether there are infinitely many rationals p/q satisfying $\lvert x-p/q \rvert<ψ(q)/q$ for a given monotonic function ψ. A century ago, Khintchine discovered a remarkable dichotomy for the Lebesgue measure of the set of ψ-approximable numbers. Since then, Khintchine’s theorem has been extended in various directions, including inhomogeneous approximation and higher-dimensional generalizations. In this talk, I will introduce the Allen-Ramírez conjecture on removing the monotonicity condition from the inhomogeneous Khintchine-Groshev theorem and discuss a recent proof of the conjecture in the case (n,m)=(2,1).
+
+- event: Diophantine approximation and related fields
+  place: University of York
+  country: UK
+  date: "2025.06.11."
+  link: "https://sites.google.com/york.ac.uk/york-25"
+  title: "Inhomogeneous Khintchine—Groshev Theorem without Monotonicity"
+  abstract: >
+    Khintchine’s theorem on metric Diophantine approximation has been developed
+    in various directions over the past century. In particular, recent works by Yu, Allen and
+    Ramírez, and Hauke have focused on removing the monotonicity condition from the inhomogeneous 
+    Khintchine–Groshev theorem. In this talk, we briefly review these developments
+    and sketch a proof of the $(n, m) = (2, 1)$ case.
+
+- event: 2025 KMS Spring Meeting [Poster]
+  place: KAIST
+  country: Korea
+  date: "2025.04.25."
+  link: "https://www.kms.or.kr/conference/2025_spring/"
+  title: Inhomogeneous Khintchine-Groshev theorem without monotonicity 
+  abstract: >
+    Diophantine approximation is the study of approximating a real number by rational numbers. For instance, given a monotonic function $\psi:\mathbb{N}→[0,1]$, one can ask whether a real number $x$
+    is $\psi$-approximable. While it is generally difficult to determine whether a specific number satisfies this condition, Khintchine established a dichotomy that almost every number is $\psi$-approximable, or almost none are.
+    Groshev extended this result to the Diophantine approximation of $n \times m$ matrices, while Szusz and Schmidt further generalized it to inhomogeneous settings. After a long history of developments, Allen and Ramírez removed 
+    the monotonicity condition on $\psi$ in the case $nm\geq 3$ and conjectured that the result also holds for $nm=2$. In this work, we prove this conjecture for the $(n,m)=(2,1)$
+    case and obtain a partial result for the $(n,m)=(1,2)$ case. Our approach relies on analyzing the (quasi-)independence of certain measurable sets, with a gcd condition playing a key role in overcoming technical difficulties.
+    (<a href="https://www.kms.or.kr/board/list.html?code=md_meet&num=25055&period=89&period_url=2025_spring" target="_blank" style="color: #0088cc;"> Excellent Poster Award </a>)
+
+- event: KIAS Seminar
+  place: KIAS
+  country: Korea
+  date: "2025.01.16."
+  link: "https://kias.re.kr/kias/activities/seminars/view.do?seqno=PGN1720250113-0002&menuNo=404003"
+  title: Inhomogeneous Khintchine--Groshev Theorem without Monotonicity
+  abstract: >
+    Diophantine approximation is the study of approximating a real number by rational numbers. For instance, given a monotonic function ψ :N → [0,1], one can ask whether a real number x is ψ -approximable. While it is generally difficult to determine whether a specific number satisfies this condition, Khintchine established a dichotomy that almost every number is ψ -approximable, or almost none are. Groshev extended this result to the Diophantine approximation of n×m matrices, while Szusz and Schmidt further generalized it to inhomogeneous settings. After a long history of developments, Allen and Ramírez removed the monotonicity condition on ψ in the case nm ≥ 3 and conjectured that the result also holds for nm=2. In this talk, we briefly review earlier results and prove this conjecture for (n,m)=(2,1) case. The main strategy involves showing the (quasi-)independence of certain measurable sets, where the appropriate consideration of a gcd condition helps overcome key obstacles.
+
+- event: Exchange Seminar
+  place: Seoul National University
+  country: Korea
+  date: "2024.02.27."
+  link: "https://www.math.snu.ac.kr/~gyeseonlee/ExchangeSeminar.html"
+  title: On values of binary quadratic forms at integer points
+  abstract: >
+    Let Q be an indefinite binary quadratic form. The goal of this talk is to introduce estimates for the number of integral solutions in large balls, of the form $\lvert Q(x,y)\rvert < ε$, obtained by Choudhuri and Dani (2015). The proof consists of dynamics, hyperbolic geometry and negative Hurwitz continued fraction.
+    

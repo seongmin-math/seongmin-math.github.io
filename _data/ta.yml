@@ -1,0 +1,37 @@
+- subject: Calculus for Life Science 1
+  semester: "2026 Spring"
+  info: "생명과학을 위한 수학 1 (박정필 교수님)"
+
+- subject: Calculus for Life Science 2
+  semester: "2025 Fall"
+  info: "생명과학을 위한 수학 2 (최혜경 교수님)"
+
+- subject: Calculus Practice 1
+  semester: "2025 Spring"
+  info: "수학연습 1 (이상혁 교수님)"
+
+- subject: Differential and Integral Calculus Practice 2
+  semester: "2024 Fall"
+  info: "미적분학연습 2 (김우찬 교수님)"
+
+- subject: Calculus Practice 1
+  semester: "2024 Spring"
+  info: "수학연습 1 (이계선 교수님)"
+  
+- subject: Calculus Practice 2
+  semester: "2023 Fall"
+  info: "수학연습 2 (유자도 교수님)"
+
+- subject: "Science Camp in College of Natural Sciences"
+  semester: "2023 Summer"
+  info: >
+    <a href="https://science.snu.ac.kr/share/outreach/camp/info" target="_blank" style="color: inherit; text-decoration: none;">자연과학체험캠프</a> (이훈희 교수님)
+
+- subject: Mathematical Analysis
+  semester: "2023 Spring"
+  info: "해석개론 (정자아 교수님)"
+
+- subject: Calculus Practice 2
+  semester: "2022 Fall"
+  info: >
+    수학연습 2 (변동호 교수님, <a href="https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Grad_Board&wr_id=141&sca=%EC%9A%B0%EC%88%98TA" target="_blank" style="color: #0066cc; text-decoration: none;">Excellent TA</a>)

@@ -1,0 +1,27 @@
+---
+layout: default
+title: TA
+permalink: /ta/
+---
+
+<h1>TA experiences</h1>
+
+<ul style="list-style-type: none; padding-left: 0;">
+  {% for ta in site.data.ta %}
+    <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+      
+      <span style="font-size: 1.1em; display: block; margin-bottom: 5px;">
+        <strong>{{ ta.subject }}</strong>
+      </span>     
+      
+      <div style="display: flex; align-items: center; flex-wrap: wrap; color: #555; font-size: 1em; line-height: 1.5;">
+        
+        <span style="margin-right: 10px;">
+          {{ ta.semester }}, {{ ta.info }}
+        </span>
+
+      </div>
+      <div style="height: 5px;"></div>
+    </li>
+  {% endfor %}
+</ul>
