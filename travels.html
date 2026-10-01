@@ -6,13 +6,13 @@ permalink: /travels/
 
 <h1>Travels</h1>
 You might have seen me at the following conferences, seminars, or events.
-
+<hr>
 <h2>Outside Korea</h2>
 <ul class="my-list">
   {% for travel in site.data.travels.outside_korea %}
     <li>
       
-      <a href="{{ travel.link }}" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.1em; display: block; margin-bottom: 5px;">
+      <a href="{{ travel.link }}" target="_blank" class="emph">
         <strong>{{ travel.event }}</strong>
       </a>     
       
@@ -27,15 +27,13 @@ You might have seen me at the following conferences, seminars, or events.
     </li>
   {% endfor %}
 </ul>
-
 <hr>
-
 <h2>Inside Korea</h2>
 <ul class="my-list">
   {% for travel in site.data.travels.inside_korea %}
     <li>
       
-      <a href="{{ travel.link }}" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.1em; display: block; margin-bottom: 5px;">
+      <a href="{{ travel.link }}" target="_blank" class="emph">
         <strong>{{ travel.event }}</strong>
       </a>     
       
