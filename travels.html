@@ -8,9 +8,9 @@ permalink: /travels/
 You might have seen me at the following conferences, seminars, or events.
 
 <h2>Outside Korea</h2>
-<ul style="list-style-type: none; padding-left: 0;">
+<ul class="my-list">
   {% for travel in site.data.travels.outside_korea %}
-    <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+    <li>
       
       <a href="{{ travel.link }}" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.1em; display: block; margin-bottom: 5px;">
         <strong>{{ travel.event }}</strong>
@@ -31,9 +31,9 @@ You might have seen me at the following conferences, seminars, or events.
 <hr>
 
 <h2>Inside Korea</h2>
-<ul style="list-style-type: none; padding-left: 0;">
+<ul class="my-list">
   {% for travel in site.data.travels.inside_korea %}
-    <li style="margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 20px; position: relative;">
+    <li>
       
       <a href="{{ travel.link }}" target="_blank" style="text-decoration: none; color: inherit; font-size: 1.1em; display: block; margin-bottom: 5px;">
         <strong>{{ travel.event }}</strong>
