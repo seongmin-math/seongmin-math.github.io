@@ -9,33 +9,43 @@
     <title>{{ site.title }}</title>
 
     <style>
-      .my-list {
-        list-style-type: none;
-        padding-left: 0;
-      }
+        .my-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .my-list li {
+            padding-bottom: 10px;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            position: relative;
+        }
+        
+        .my-list a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.2s;
+        }
+        
+        .my-list a:hover {
+            color: #2f5d50;
+        }
+        
+        .emph {
+            font-size: 1.1em;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
 
-      .my-list li {
-        padding-bottom: 10px;
-        border-top: 1px solid #eee;
-        padding-top: 15px;
-        position: relative;
-      }
-
-      .my-list a {
-        text-decoration: none;
-        color: inherit;
-        transition: color 0.2s;
-      }
-
-      .my-list a:hover {
-        color: #0088cc;
-      }
-
-      .emph {
-          font-size: 1.1em;
-          display: inline-block;
-          margin-bottom: 5px;
-      }
+        .my-logo {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45px;
+            height: 45px;
+            object-fit: contain;
+        }
     </style>
     
     <script>
