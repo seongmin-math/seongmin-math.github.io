@@ -47,6 +47,7 @@ inside_korea:
     city: Seoul
     date: "2026.06.22. ~ 2026.06.24."
     link: "https://www.kms.or.kr/conference/meeting/?period=91"
+    logo: "/images/logos/kms.png"
     
   - event: "A Spring Day in Dynamics and Number Theory"
     place: Dongguk University
@@ -71,12 +72,14 @@ inside_korea:
     city: Seoul
     date: "2025.11.26. ~ 2025.11.28."
     link: "https://sites.google.com/view/dgtvii"
+    logo: "/images/logos/snu.png"
 
   - event: "2025 KMS Annual Meeting"
     place: ST Center
     city: Seoul
     date: "2025.10.22. ~ 2025.10.24."
     link: "https://www.kms.or.kr/conference/meeting/index.html?period=90"
+    logo: "/images/logos/kms.png"
 
   - event: "A Summer Dynamics Day"
     place: Dongguk University
@@ -89,30 +92,35 @@ inside_korea:
     city: Daejeon
     date: "2025.04.24. ~ 2025.04.26."
     link: "https://www.kms.or.kr/conference/2025_spring/"
+    logo: "/images/logos/kms.png"
 
   - event: "Workshop on Homogeneous and Complex Dynamics 2025"
     place: Seoul National University
     city: Seoul
     date: "2025.03.26. ~ 2025.03.28."
     link: "https://www.math.snu.ac.kr/~lim/Workshop25.html"
+    logo: "/images/logos/snu.png"
 
   - event: "KIAS-LFANT Winter School on Number Theory"
     place: KIAS
     city: Seoul
     date: "2025.01.07. ~ 2025.01.10."
     link: "http://events.kias.re.kr/h/KIASLFANT2025/"
+    logo: "/images/logos/kias.png"
 
   - event: "Dynamical Group Theory IV"
     place: HCMC KIAS
     city: Seoul
     date: "2024.09.24. ~ 2024.09.27."
     link: "https://sites.google.com/view/dgt4-kias"
+    logo: "/images/logos/kiashcmc.png"
 
   - event: "Dynamical Group Theory III"
     place: KIAS
     city: Seoul
     date: "2024.08.13. ~ 2024.08.16."
     link: "https://sites.google.com/view/dgt3-kias"
+    logo: "/images/logos/kias.png"
 
   - event: "2024 Algebraic Camp"
     place: Bloomvista
@@ -125,9 +133,11 @@ inside_korea:
     city: Seoul
     date: "2023.12.18. ~ 2023.12.20."
     link: "https://sites.google.com/view/hygen2023"
+    logo: "/images/logos/kiashcmc.png"
 
   - event: "2023 KMS Special Conference with 2022 Fields Medalists"
     place: Seoul National University
     city: Seoul
     date: "2023.10.26. ~ 2023.10.28."
     link: "https://www.kms.or.kr/conference/2023_fall"
+    logo: "/images/logos/kms.png"
