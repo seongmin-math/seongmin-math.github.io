@@ -13,6 +13,7 @@ outside_korea:
     country: Japan
     date: "2025.09.08. ~ 2025.09.12."
     link: "https://numeration2025.sciencesconf.org/?lang=en"
+    logo: "/images/logos/tsukuba.png"
 
   - event: Diophantine approximation and related fields
     place: University of York
@@ -20,6 +21,7 @@ outside_korea:
     country: UK
     date: "2025.06.09. ~ 2025.06.13."
     link: "https://sites.google.com/york.ac.uk/york-25"
+    logo: "/images/logos/york.svg"
 
   - event: Winter School on Homogeneous Dynamics
     place: Fudan University
@@ -27,6 +29,7 @@ outside_korea:
     country: China
     date: "2024.01.22. ~ 2024.01.26."
     link: "https://scms.fudan.edu.cn/info/4588/6088.htm"
+    logo: "/images/logos/fudanscms.png"
 
 
 inside_korea:
@@ -35,12 +38,14 @@ inside_korea:
     city: Seoul
     date: "2026.07.06. ~ 2026.07.08."
     link: "https://www.kwms.or.kr/index.php?mp=ss_2026_1th_1"
+    logo: "/images/logos/kwms.png"
 
   - event: "DASOM Workshop 2026: Homogeneous dynamics & Number Theory"
     place: Seoul National University
     city: Seoul
     date: "2026.06.25. ~ 2026.06.26."
     link: "https://sites.google.com/view/seonheelim/past-activities/dasom-workshop?authuser=0"
+    logo: "/images/logos/snu.png"
 
   - event: "International Conference for the 80th Anniversary of the Korean Mathematical Society"
     place: ST Center
@@ -54,18 +59,21 @@ inside_korea:
     city: Seoul
     date: "2026.02.25."
     link: "https://sites.google.com/view/springdday"
+    logo: "/images/logos/dongguk.png"
 
   - event: "12th Dialogue with Future Scientists"
     place: The Blue House
     city: Seoul
     date: "2026.02.05."
     link: "https://news.naver.com/mnews/article/001/0015886959"
+    logo: "/images/logos/bluehouse.svg"
 
   - event: "2026 Algebra Camp"
     place: Elysian
     city: Chuncheon
     date: "2026.01.25. ~ 2026.01.29."
     link: "https://sites.google.com/snu.ac.kr/algebra-camp2026/home"
+    logo: "/images/logos/qsms.png"
 
   - event: "Dynamical Group Theory VII"
     place: Seoul National University
@@ -86,13 +94,14 @@ inside_korea:
     city: Seoul
     date: "2025.08.21."
     link: "https://sites.google.com/view/summerdday"
+    logo: "/images/logos/dongguk.png"
 
   - event: "2025 KMS Spring Meeting"
     place: KAIST
     city: Daejeon
     date: "2025.04.24. ~ 2025.04.26."
     link: "https://www.kms.or.kr/conference/2025_spring/"
-    logo: "/images/logos/kms.png"
+    logo: "/images/logos/kaist.png"
 
   - event: "Workshop on Homogeneous and Complex Dynamics 2025"
     place: Seoul National University
@@ -127,6 +136,7 @@ inside_korea:
     city: Yangpyeong
     date: "2024.02.03. ~ 2024.02.07."
     link: "https://sites.google.com/snu.ac.kr/algebra-camp2024/"
+    logo: "/images/logos/qsms.png"
 
   - event: "Hyperbolic Geometry of Numbers 2023"
     place: HCMC KIAS
