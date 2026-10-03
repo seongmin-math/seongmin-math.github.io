@@ -5,6 +5,7 @@ outside_korea:
     country: Poland
     date: "2026.04.26. ~ 2026.05.23."
     link: "https://sites.google.com/impan.pl/simons-cfd2026"
+    logo: "_images/_logos/impan.png"
 
   - event: "Numeration and Substitution 2025"
     place: University of Tsukuba
