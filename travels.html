@@ -22,6 +22,10 @@ permalink: /travels/
           {{ travel.date }} {{travel.place}}, {{travel.city}}, {{travel.country}}
         </span>
 
+        {% if travel.logo %}
+          <img src="{{ travel.logo }}" class="my-logo">
+        {% endif %}
+
       </div>
       <div style="height: 5px;"></div>
     </li>
@@ -42,6 +46,10 @@ permalink: /travels/
         <span style="margin-right: 10px;">
           {{ travel.date }} {{travel.place}}, {{travel.city}}
         </span>
+
+        {% if travel.logo %}
+          <img src="{{ travel.logo }}" class="my-logo">
+        {% endif %}
 
       </div>
       <div style="height: 5px;"></div>
