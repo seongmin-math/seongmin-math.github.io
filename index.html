@@ -64,24 +64,26 @@ layout: default
       </a>
       
       <div style="display: flex; align-items: center; flex-wrap: wrap; color: #555; font-size: 1em; line-height: 1.5;">
-        
-        <span style="margin-right: 10px;">
-          {% if paper.coauthor %}
+            
+        {% if paper.coauthor %}
+          <span style="margin-right: 10px;">
             (with
             {% for author in paper.coauthor %}
               {% unless forloop.first %}
-                {% if forloop.last %}and{% else %},{% endif %}
+                {% if forloop.last %} and {% else %}, {% endif %}
               {% endunless %}
               {% if author.link %}
                 <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
               {% else %}
                 {{ author.name }}
               {% endif %}
-            {% endfor %}
-            ) 
-          {% endif %}
-        </span>
-        <em>{{ paper.journal }}, </em> {{ paper.info }} ({{ paper.year }})
+            {% endfor %})
+          </span>
+        {% endif %}
+      
+        <em style="margin-right: 0.3em;">{{ paper.journal }},</em>
+        {{ paper.info }} ({{ paper.year }})
+      </div>
           
         
         {% if paper.abstract %}
