@@ -66,10 +66,8 @@ layout: default
       <div style="display: flex; align-items: center; flex-wrap: wrap; color: #555; font-size: 1em; line-height: 1.5;">
         
         <span style="margin-right: 10px;">
-          <em>{{ paper.journal }}, </em> {{ paper.info }} ({{ paper.year }})
-          
           {% if paper.coauthor %}
-            with
+            (with
             {% for author in paper.coauthor %}
               {% unless forloop.first %}
                 {% if forloop.last %}and{% else %},{% endif %}
@@ -80,8 +78,11 @@ layout: default
                 {{ author.name }}
               {% endif %}
             {% endfor %}
+            ) 
           {% endif %}
         </span>
+        <em>{{ paper.journal }}, </em> {{ paper.info }} ({{ paper.year }})
+          
         
         {% if paper.abstract %}
           <details style="display: inline-block;">
