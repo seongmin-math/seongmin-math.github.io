@@ -29,7 +29,7 @@
 - subject: "Science Camp in College of Natural Sciences"
   semester: "2023 Summer"
   info: >
-    <a href="https://science.snu.ac.kr/share/outreach/camp/info" target="_blank" style="color: inherit; text-decoration: none;">자연과학체험캠프</a> (이훈희 교수님)
+    <a href="https://science.snu.ac.kr/share/outreach/camp/info" target="_blank">자연과학체험캠프</a> (이훈희 교수님)
 
 - subject: Mathematical Analysis
   semester: "2023 Spring"
@@ -38,4 +38,4 @@
 - subject: Calculus Practice 2
   semester: "2022 Fall"
   info: >
-    수학연습 2 (변동호 교수님, <a href="https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Grad_Board&wr_id=141&sca=%EC%9A%B0%EC%88%98TA" target="_blank" style="color: #0066cc; text-decoration: none;">Excellent TA</a>)
+    수학연습 2 (변동호 교수님, <a href="https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Grad_Board&wr_id=141&sca=%EC%9A%B0%EC%88%98TA" target="_blank">Excellent TA</a>)
