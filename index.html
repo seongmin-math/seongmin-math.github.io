@@ -69,7 +69,6 @@ layout: default
           <em>{{ paper.journal }}, </em> {{ paper.info }} ({{ paper.year }})
           
           {% if paper.coauthor %}
-            <span style="color: #999; margin: 0 5px;">&middot;</span>
             with
             {% for author in paper.coauthor %}
               {% unless forloop.first %}
