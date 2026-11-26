@@ -34,7 +34,7 @@ layout: default
 <h2>Educations </h2>
 <ul class="my-list">
   <li>
-    <strong class="emph">Ph.D. student in Mathematics, <a href="https://www.math.snu.ac.kr/" target="_blank" onmouseover="this.style.color='#003380'" onmouseout="this.style.color=''"> Seoul National University </a> </strong>
+    <strong class="emph">Ph.D. student in Mathematics, <a href="https://www.math.snu.ac.kr/" target="_blank" class="snu-link"> Seoul National University </a> </strong>
     <br>
     <div style="color: #555;">
     2022.09. ~ , Advisor: <a href="https://sites.google.com/view/seonheelim?usp=sharing" target=_"blank"> Seonhee Lim </a>
@@ -43,7 +43,7 @@ layout: default
   </li>
 
   <li>
-    <strong class="emph">B.S. in Mathematics, <a href="https://math.korea.ac.kr/" target="_blank" onmouseover="this.style.color='#8B0029'" onmouseout="this.style.color=''"> Korea University </a> </strong>
+    <strong class="emph">B.S. in Mathematics, <a href="https://math.korea.ac.kr/" target="_blank" class="ku-link"> Korea University </a> </strong>
     <br>
     <div style="color: #555;">
     2019.03. ~ 2022.08.
@@ -67,6 +67,21 @@ layout: default
         
         <span style="margin-right: 10px;">
           <em>{{ paper.journal }}, </em> {{ paper.info }} ({{ paper.year }})
+          
+          {% if paper.coauthor %}
+            <span style="color: #999; margin: 0 5px;">&middot;</span>
+            with
+            {% for author in paper.coauthor %}
+              {% unless forloop.first %}
+                {% if forloop.last %}and{% else %},{% endif %}
+              {% endunless %}
+              {% if author.link %}
+                <a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
+              {% else %}
+                {{ author.name }}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </span>
         
         {% if paper.abstract %}
