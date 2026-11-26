@@ -8,7 +8,7 @@
       link: "https://sites.google.com/view/bmichael/"
     - name: "Seonhee Lim"
       link: "https://sites.google.com/view/seonheelim/"
-  absract: >
+  abstract: >
     The irreducible representation of $\mathrm{SL}_2(\mathbb{R})$ on $\mathbb{R}^n$ induces an action on the space $X_k(\mathbb{R}^n)$ of projective classes of rank $k$-discrete subgroups in $\mathbb{R}^n$.
     For every lattice subgroup of $\mathrm{SL}_2(\mathbb{R})$ and every starting point in $X_k(\mathbb{R}^n)$ and $2\geq k<n$, we prove convergence of the orbit averages over expanding norm balls and give a complete, explicit description of their limits.
 
