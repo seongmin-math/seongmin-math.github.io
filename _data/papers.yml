@@ -9,8 +9,8 @@
     - name: "Seonhee Lim"
       link: "https://sites.google.com/view/seonheelim/"
   abstract: >
-    The irreducible representation of $\mathrm{SL}_2(\mathbb{R})$ on $\mathbb{R}^n$ induces an action on the space $X_k(\mathbb{R}^n)$ of projective classes of rank $k$-discrete subgroups in $\mathbb{R}^n$.
-    For every lattice subgroup of $\mathrm{SL}_2(\mathbb{R})$ and every starting point in $X_k(\mathbb{R}^n)$ and $2\geq k<n$, we prove convergence of the orbit averages over expanding norm balls and give a complete, explicit description of their limits.
+    The irreducible representation of $$\mathrm{SL}_2(\mathbb{R})$$ on $$\mathbb{R}^n$$ induces an action on the space $$X_k(\mathbb{R}^n)$$ of projective classes of rank $$k$$-discrete subgroups in $$\mathbb{R}^n$$.
+    For every lattice subgroup of $\mathrm{SL}_2(\mathbb{R})$ and every starting point in $X_k(\mathbb{R}^n)$ and $2\leq k<n$, we prove convergence of the orbit averages over expanding norm balls and give a complete, explicit description of their limits.
 
     In an overview, every limit is supported on the subbundle over the unique compact $\mathrm{SL}_2(\mathbb{R})$-orbit in the Grassmannian.
     The conditional measures on the fibers are either uniform on finite sets or convex combinations of at most two homogeneous measures associated with split simple subgroups of $\mathrm{PGL}_k(\mathbb{R})$ containing the principal $\mathrm{SL}_2(\mathbb{R})$.
