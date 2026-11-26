@@ -1,6 +1,6 @@
 - title: 'Irreducible $\mathrm{SL}_2(\mathbb{R})$-action on projective $k$-lattices and Frobenius numbers'
   journal: "preprint"
-  info: "arxiv:2611.23579"
+  info: "arXiv:2611.23579"
   year: 2026
   link: "https://arxiv.org/abs/2611.23579"
   coauthor:
@@ -12,8 +12,10 @@
     The irreducible representation of $$\mathrm{SL}_2(\mathbb{R})$$ on $$\mathbb{R}^n$$ induces an action on the space $$X_k(\mathbb{R}^n)$$ of projective classes of rank $$k$$-discrete subgroups in $$\mathbb{R}^n$$.
     For every lattice subgroup of $$\mathrm{SL}_2(\mathbb{R})$$ and every starting point in $$X_k(\mathbb{R}^n)$$ and $$2\leq k<n$$, we prove convergence of the orbit averages over expanding norm balls and give a complete, explicit description of their limits.
 
+
     In an overview, every limit is supported on the subbundle over the unique compact $$\mathrm{SL}_2(\mathbb{R})$$-orbit in the Grassmannian.
     The conditional measures on the fibers are either uniform on finite sets or convex combinations of at most two homogeneous measures associated with split simple subgroups of $\mathrm{PGL}_k(\mathbb{R})$ containing the principal $$\mathrm{SL}_2(\mathbb{R})$$.
+
 
     Another objective of our work is to relate weak-* limits of probability measures on $$X_{n−1}(\mathbb{R}^n)$$ supported on the projective classes of lattices orthogonal to integer vectors with limiting distributions of the corresponding normalized Frobenius numbers.
     This correspondence gives limit laws for vectors sampled from certain proper subvarieties, extending J. Marklof's work on sampling from full-dimensional domains.
